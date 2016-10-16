@@ -1,0 +1,17 @@
+.background    { background: rgb(52, 166, 251);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: linear-gradient(red,black); }
+.wall          { background: white;   }
+.coin	    { background: radial-gradient(circle, yellow, white);}
+
+/* For whatever reason, the background-image below just doesn't work. */
+.floater    { background-image: url("door.jpg");}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
