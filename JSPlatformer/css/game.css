@@ -2,12 +2,13 @@
                  table-layout: fixed;
                  border-spacing: 0;   }
 .background td { padding: 0;          }
-.lava          { background: linear-gradient(red,black); }
+.lava          { background: rgb(255, 100, 100); }
 .wall          { background: white;   }
-.coin	    { background: radial-gradient(circle, yellow, white);}
 
-/* For whatever reason, the background-image below just doesn't work. */
-.floater    { background-image: url("door.jpg");}
+.actor  { position: absolute;  }
+.coin   { background: rgb(241, 229, 89); }
+.player { background: rgb(64, 64, 64); }
+.nugget   { background: rgb(5, 229, 89); }
 
 .game {
   overflow: hidden;
